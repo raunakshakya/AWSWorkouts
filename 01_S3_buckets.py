@@ -57,7 +57,7 @@ def empty_bucket(bucket_name):
 
 if __name__ == "__main__":
     session = boto3.session.Session(profile_name="clioperation")
-    # OR: Don't bother - key are incorrect
+    # OR: Don't bother - keys are incorrect
     # session = boto3.session.Session(aws_access_key_id="AKIARV4MT4SSPGT6QH3",
     #                                 aws_secret_access_key="oB3Z3D2WLzYAabe/O+O2OhravXVT7kNrjrO2RNi",
     #                                 region_name="us-east-1")
